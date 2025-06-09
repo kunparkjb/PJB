@@ -1,0 +1,12 @@
+// 처음 연결할 경우
+git init
+git add github.txt
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kunparkjb/PJB.git
+git push -u origin main
+
+// 추가 연결할 경우
+git remote add origin https://github.com/kunparkjb/PJB.git
+git branch -M main
+git push -u origin main
